@@ -1,4 +1,4 @@
-# [TeleSeed](https://telegram.me/TeleSeed) 
+# [TeleBN](https://telegram.me/Black-Nine) 
 
 [![Join the chat at https://gitter.im/SEEDTEAM/TeleSeed](https://badges.gitter.im/SEEDTEAM/TeleSeed.svg)](https://gitter.im/SEEDTEAM/TeleSeed?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -21,8 +21,6 @@
 * **And ...**
 
 **Table of Contents** 
-- [TeleSeed](#teleseed)
-- [Features](#features)
 - [Commands](#commands)
 	- [Admins commands](#admins-commands)
 		- [Realm creation](#realm-creation)
@@ -86,16 +84,16 @@
 - [Our team!](#our-team-)
 
 
-# Commands 
-## Admins commands
-**Only admins and sudo users can run these commands**
-### Group creation
+# دستور ها
+## دستور های ادمین
+**فقط ادمین های ربات  می توانند این ها را انجام دهند**
+###  ساخت گروه
 >[!/]creategroup [group name]
 >
->>[!/]creategroup SEED
->>>will create a group
+>>[!/]creategroup BlackNine
+>>>ساختگروه ضد اسپم
 >>>
->>>_Only works in realms for admins but, sudo users can use it everywhere_
+>>>این دستور باعث ساخت گروه است و برای ادمین های ربات هست
 
 ### Realm creation
 >[!/]createrealm [realm name]
@@ -113,29 +111,25 @@
 >>This command will remove that group
 
 
-###Add or remove groups
+###اضافه کردن ریات از گروه
 >[!/]add
->>This command will add that group
->
->[!/]rem
->>This command will remove that group
+>> این دستور اضافه کردن ربات به گروه است
 
-###Leaving
+###حذف کردن ربات از گروه
 >[!/]leave
->>Bot will leave that group
+>>این دستور برای خارج کردن از گروه است
 
-###Everything about groups
+###لیست گروه ها
 >[!/]all
->>This command will return everything about that group
->
+>>این دستور برای دیدن گرو ها است
+>یا بصورت دیدن یک گروه
 >[!/]all [group_id]
->>_Only onwer,admin and sudo users can use this command
 
 
-### Setting description in realm
+### تنظیمات راهنمای گروه
 > [!/]setabout [Group_id] [text]
 >>[!/]setabout 123456789 about
->>>This command will set [text] as description of [Group_id]
+>>>This command will set [text] as description of [ایدی گروه]
 
 
 ### Setting group name in realm 
@@ -461,10 +455,7 @@ open file ./data/config.lua
 add your id to the "sudo_users" section in the following format:
 ```
   sudo_users = {
-    110626080,
-    103649648,
-    111020322,
-    0,
+    115442858,
     YourID
   }
 ```
@@ -475,34 +466,6 @@ Create a realm using !createrealm command
 
 # Support and development
 
-Check out this tutorial by: [Telegram Geeks](http://telegramgeeks.com/2016/01/teleseed-tutorial/) for further assistance with setup and installation.
 
-Do not contact **us** In private for support.
-Join our bot development group by sending `/join 56670147` to [@TeleSeed](https://telegram.me/TeleSeed)
 
 _If you are using /join service for first time you have to send it 11 times ( Bot is spam reported )_
-
-# Special thanks to
-[@seyedan25](https://telegram.me/seyedan25)
-
-For Managing [@teleseed](https://telegram.me/TeleSeed) on Telegram
-
-[@Vamptacus](https://telegram.me/Vamptacus)
-
-For graphic designs
-
-[@topkecleon](https://github.com/topkecleon)
-
-[@JuanPotato](https://github.com/JuanPotato)
-
-# Our team!
-
-[Alphonse](https://github.com/hmon) ([Telegram](https://telegram.me/iwals))
-
-[I M /-\ N](https://github.com/imandaneshi) ([Telegram](https://telegram.me/imandaneshi))
-
-[Siyanew](https://github.com/Siyanew) ([Telegram](https://telegram.me/Siyanew))
-
-[Rondoozle](https://github.com/Rondoozle) ([Telegram](https://telegram.me/Rondoozle))
-
-Our Telegram cahnnels > English: [@TeleSeedCH](https://telegram.me/teleseedch) Persian: [@IranSeed](https://telegram.me/iranseed)
